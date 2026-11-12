@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gnanasekar Shell Lime Manufacture - Since 1976</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: { dark: '#1e3a2f', green: '#2d4a3e', cream: '#e8e4d9', light: '#f5f3ef', red: '#c41e1e' }
+                    },
+                    fontFamily: { sans: ['Inter', 'sans-serif'] }
+                }
+            }
+        }
+    </script>
+    <style> body { font-family: 'Inter', sans-serif; } </style>
+</head>
+<body class="bg-brand-light text-gray-800">
+
+    <!-- TOP BAR -->
+    <div class="bg-brand-cream border-b border-gray-300 hidden md:block">
+        <div class="max-w-7xl mx-auto px-4 py-2 flex items-center justify-between text-xs">
+            <div>
+                <p class="font-bold text-brand-dark">GNANASEKAR SINCE 1976</p>
+                <p class="text-gray-600">SHELL LIME MANUFACTURE • ஞானசேகர் விளிச்சு கண்ணாம்பு</p>
+            </div>
+            <div class="flex items-center gap-4">
+                <span class="font-medium">EN</span>
+                <span>தமிழ்</span>
+                <a href="https://wa.me/918344444161" class="bg-brand-dark text-white px-3 py-1 rounded hover:bg-brand-green">Enquire Now</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- NAVBAR WITH LOGO -->
+    <nav class="bg-white border-b border-gray-200 sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between">
+            <div class="flex items-center gap-3">
+                <img src="logo.png" alt="Gnanasekar Logo" class="h-12 w-auto object-contain" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                <div class="hidden flex-col leading-tight">
+                    <p class="text-sm font-bold text-brand-dark">GNANASEKAR</p>
+                    <p class="text-[10px] text-gray-500">SHELL LIME MFG.</p>
+                </div>
+            </div>
+            
+            <div class="hidden md:flex items-center gap-6 text-sm font-medium">
+                <a href="#home" class="text-brand-dark font-bold">Home</a>
+                <a href="#about" class="text-gray-700 hover:text-brand-dark">About Us</a>
+                <a href="#products" class="text-gray-700 hover:text-brand-dark">Products</a>
+                <a href="#gallery" class="text-gray-700 hover:text-brand-dark">Gallery</a>
+                <a href="#contact" class="text-gray-700 hover:text-brand-dark">Contact</a>
+            </div>
+
+            <a href="#contact" class="hidden md:inline-block bg-brand-dark text-white px-4 py-2 rounded text-sm font-medium hover:bg-brand-green">Enquire Now</a>
+            <button id="mobileMenuBtn" class="md:hidden text-2xl text-brand-dark"><i class="fa-solid fa-bars"></i></button>
+        </div>
+        
+        <div id="mobileMenu" class="hidden md:hidden bg-white border-t p-4 flex flex-col gap-3 text-sm font-medium">
+            <a href="#home" class="text-brand-dark font-bold">Home</a>
+            <a href="#about">About Us</a>
+            <a href="#products">Products</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </nav>
+
+    <!-- HOME SECTION -->
+    <section id="home" class="max-w-7xl mx-auto px-4 py-12 md:py-16">
+        <div class="grid md:grid-cols-2 gap-10 items-center">
+            <div class="bg-brand-cream rounded-lg p-8">
+                <span class="inline-block bg-white border border-gray-300 text-xs font-bold px-3 py-1 rounded-full mb-4">ESTABLISHED 1976 • OVER 4 DECADES OF RELIABILITY</span>
+                <h1 class="text-3xl md:text-4xl font-bold text-brand-dark mb-2">GNANASEKAR SHELL LIME MANUFACTURE</h1>
+                <p class="text-gray-700 font-medium mb-3">Trusted Shell Lime Manufacturing Since 1976</p>
+                <p class="text-gray-600 text-sm mb-6">Discover our range of shell lime and limestone products. Contact us for product details, availability and wholesale or retail enquiries.</p>
+                
+                <div class="flex gap-3 mb-6">
+                    <a href="#products" class="bg-brand-dark text-white px-5 py-2.5 rounded text-sm font-medium hover:bg-brand-green">Explore Products</a>
+                    <a href="#contact" class="bg-white border border-gray-300 text-gray-700 px-5 py-2.5 rounded text-sm font-medium hover:bg-gray-50">Contact Us</a>
+                </div>
+
+                <div class="flex gap-6 pt-4 border-t border-gray-300">
+                    <div class="flex items-center gap-2">
+                        <i class="fa-solid fa-phone text-brand-dark"></i>
+                        <div>
+                            <p class="text-xs font-bold text-brand-dark">CALL NOW</p>
+                            <p class="text-sm">8344444161</p>
+                        </div>
+                    </div>
+                    <div class="flex items-center gap-2">
+                        <i class="fa-brands fa-whatsapp text-brand-dark"></i>
+                        <div>
+                            <p class="text-xs font-bold text-brand-dark">WHATSAPP US</p>
+                            <p class="text-sm">8344444161</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <div class="bg-white p-3 rounded-lg shadow-sm">
+                    <img src="home-hero.jpg" alt="Gnanasekar Shell Lime Shop" class="w-full rounded object-cover h-80" onerror="this.src='https://placehold.co/600x400/e8e4d9/1e3a2f?text=Shop+Front+Image'">
+                </div>
+                <a href="https://youtube.com/@gnanasekarshelllime" target="_blank" class="mt-4 flex items-center justify-center gap-2 bg-brand-red text-white py-3 rounded-lg font-medium hover:bg-red-700">
+                    <i class="fa-brands fa-youtube"></i> Watch on YouTube Channel
+                </a>
+                <p class="text-center text-xs text-gray-600 mt-2">Official Video Updates • Manufacturing Insights</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section id="about" class="bg-white py-16 border-t border-gray-200">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="text-center mb-12">
+                <p class="text-xs font-bold tracking-widest text-gray-500 mb-2">AUTHENTIC INDUSTRIAL HERITAGE</p>
+                <h2 class="text-3xl font-bold text-brand-dark">A Family Business Built on Trust Since 1976</h2>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-10 items-center mb-16">
+                <div>
+                    <p class="text-gray-700 mb-4">Gnanasekar Shell Lime Manufacture is a family business established in 1976. Started by the family's grandfather, the business continues its longstanding connection with the lime industry. We manufacture and supply shell lime products for customers with suitable construction, whitewashing, and other product-specific requirements.</p>
+                    <div class="flex items-start gap-3 bg-brand-cream p-4 rounded-lg">
+                        <i class="fa-solid fa-check-circle text-brand-dark text-xl mt-1"></i>
+                        <div>
+                            <p class="font-semibold text-brand-dark">Continuous Operation</p>
+                            <p class="text-sm text-gray-600">Operating responsibly from Tamil Nadu since 1976</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-brand-cream p-3 rounded-lg">
+                    <img src="shop-front.jpg" alt="Shop Front" class="w-full rounded object-cover h-64 mb-4" onerror="this.src='https://placehold.co/600x400/e8e4d9/1e3a2f?text=Shop+Front'">
+                    <img src="kosapur-unit.jpg" alt="Kosapur Unit" class="w-full rounded object-cover h-64" onerror="this.src='https://placehold.co/600x400/e8e4d9/1e3a2f?text=Kosapur+Manufacturing'">
+                </div>
+            </div>
+
+            <div class="text-center mb-8">
+                <p class="text-xs font-bold tracking-widest text-gray-500 mb-2">UNCOMPROMISING CREDENTIALS</p>
+                <h3 class="text-2xl font-bold text-brand-dark">Why Choose Gnanasekar Shell Lime</h3>
+            </div>
+            <div class="grid md:grid-cols-3 gap-6">
+                <div class="bg-brand-light p-6 rounded-lg border border-gray-200">
+                    <i class="fa-solid fa-landmark text-3xl text-brand-dark mb-3"></i>
+                    <p class="text-xs font-bold text-brand-dark mb-1">01 / FOUNDATION</p>
+                    <p class="font-semibold text-brand-dark mb-2">Established in 1976</p>
+                    <p class="text-sm text-gray-600">Decades of trusted industry experience in natural shell lime processing, delivering high reliability across multiple generations.</p>
+                </div>
+                <div class="bg-brand-light p-6 rounded-lg border border-gray-200">
+                    <i class="fa-solid fa-gem text-3xl text-brand-dark mb-3"></i>
+                    <p class="text-xs font-bold text-brand-dark mb-1">02 / PRODUCT EXCELLENCE</p>
+                    <p class="font-semibold text-brand-dark mb-2">Shell Lime & Limestone Products</p>
+                    <p class="text-sm text-gray-600">Pure shell lime and high-grade limestone range suitable for construction, soil neutralization, chemical purification, and industrial works.</p>
+                </div>
+                <div class="bg-brand-light p-6 rounded-lg border border-gray-200">
+                    <i class="fa-solid fa-truck-fast text-3xl text-brand-dark mb-3"></i>
+                    <p class="text-xs font-bold text-brand-dark mb-1">03 / DIRECT SERVICE</p>
+                    <p class="font-semibold text-brand-dark mb-2">Wholesale & Retail Enquiries</p>
+                    <p class="text-sm text-gray-600">Flexible fulfilment for heavy multi-ton commercial loads as well as immediate bags for retail merchants and direct buyers.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PRODUCTS SECTION -->
+    <section id="products" class="max-w-7xl mx-auto px-4 py-16">
+        <div class="text-center mb-12">
+            <p class="text-xs font-bold tracking-widest text-gray-500 mb-2">CATALOG • MANUFACTURED GRADES</p>
+            <h2 class="text-3xl font-bold text-brand-dark">Our Products</h2>
+            <p class="text-sm text-gray-600 mt-2">High purity shell lime and limestone products available for wholesale and retail supply.</p>
+        </div>
+
+        <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+            <div class="bg-white rounded-lg border border-gray-200 overflow-hidden flex flex-col">
+                <div class="bg-brand-cream p-4 flex items-center justify-between">
+                    <span class="text-xs font-bold text-brand-dark">GRADE A</span>
+                    <i class="fa-solid fa-atom text-brand-dark"></i>
+                </div>
+                <div class="p-6 flex-grow">
+                    <img src="prod-1.jpg" alt="Shell Lime Powder" class="w-full h-40 object-cover rounded mb-4" onerror="this.src='https://placehold.co/400x300/e8e4d9/1e3a2f?text=Shell+Lime+Powder'">
+                    <h3 class="font-bold text-brand-dark mb-2">SHELL LIME POWDER</h3>
+                    <p class="text-sm text-gray-600 mb-4">Finely pulverized sea shell lime with high calcium purity, ideal for whitewashing, plastering, chemical neutralizing, and specialized manufacturing.</p>
+                </div>
+                <div class="p-4 border-t border-gray-200 bg-gray-50">
+                    <a href="https://wa.me/918344444161?text=Hello,%20I%20am%20inquiring%20about%20Shell%20Lime%20Powder." target="_blank" class="block w-full text-center bg-brand-dark text-white py-2 rounded text-sm font-medium hover:bg-brand-green">Product Enquiry</a>
+                </div>
+            </div>
+
+            <div class="bg-white rounded-lg border border-gray-200 overflow-hidden flex flex-col">
+                <div class="bg-brand-cream p-4 flex items-center justify-between">
+                    <span class="text-xs font-bold text-brand-dark">TRADITIONAL</span>
+                    <i class="fa-solid fa-fire text-brand-dark"></i>
+                </div>
+                <div class="p-6 flex-grow">
+                    <img src="prod-2.jpg" alt="Kilinjal Sunnambu" class="w-full h-40 object-cover rounded mb-4" onerror="this.src='https://placehold.co/400x300/e8e4d9/1e3a2f?text=Kilinjal+Sunnambu'">
+                    <h3 class="font-bold text-brand-dark mb-2">KILINJAL SUNNAMBU</h3>
+                    <p class="text-sm text-gray-600 mb-4">Authentic naturally kilned shell lime lump (Kilinjal Sunnambu) prepared using proven traditional calcination methods for construction and soil treatment.</p>
+                </div>
+                <div class="p-4 border-t border-gray-200 bg-gray-50">
+                    <a href="https://wa.me/918344444161?text=Hello,%20I%20am%20inquiring%20about%20Kilinjal%20Sunnambu." target="_blank" class="block w-full text-center bg-brand-dark text-white py-2 rounded text-sm font-medium hover:bg-brand-green">Product Enquiry</a>
+                </div>
+            </div>
+
+            <div class="bg-white rounded-lg border border-gray-200 overflow-hidden flex flex-col">
+                <div class="bg-brand-cream p-4 flex items-center justify-between">
+                    <span class="text-xs font-bold text-brand-dark">MINERAL</span>
+                    <i class="fa-solid fa-mountain text-brand-dark"></i>
+                </div>
+                <div class="p-6 flex-grow">
+                    <img src="prod-3.jpg" alt="Limestone" class="w-full h-40 object-cover rounded mb-4" onerror="this.src='https://placehold.co/400x300/e8e4d9/1e3a2f?text=Limestone'">
+                    <h3 class="font-bold text-brand-dark mb-2">LIMESTONE</h3>
+                    <p class="text-sm text-gray-600 mb-4">Solid natural limestone lumps sorted for industrial kiln feed, water clarification plants, metallurgical applications, and masonry work.</p>
+                </div>
+                <div class="p-4 border-t border-gray-200 bg-gray-50">
+                    <a href="https://wa.me/918344444161?text=Hello,%20I%20am%20inquiring%20about%20Limestone." target="_blank" class="block w-full text-center bg-brand-dark text-white py-2 rounded text-sm font-medium hover:bg-brand-green">Product Enquiry</a>
+                </div>
+            </div>
+
+            <div class="bg-white rounded-lg border border-gray-200 overflow-hidden flex flex-col">
+                <div class="bg-brand-cream p-4 flex items-center justify-between">
+                    <span class="text-xs font-bold text-brand-dark">FINE MESH</span>
+                    <i class="fa-solid fa-border-all text-brand-dark"></i>
+                </div>
+                <div class="p-6 flex-grow">
+                    <img src="prod-4.jpg" alt="Limestone Powder" class="w-full h-40 object-cover rounded mb-4" onerror="this.src='https://placehold.co/400x300/e8e4d9/1e3a2f?text=Limestone+Powder'">
+                    <h3 class="font-bold text-brand-dark mb-2">LIMESTONE POWDER</h3>
+                    <p class="text-sm text-gray-600 mb-4">Micronized limestone powder with uniform mesh consistency. Widely applied in soil conditioning, poultry feed additives, asphalt fillers, and paints.</p>
+                </div>
+                <div class="p-4 border-t border-gray-200 bg-gray-50">
+                    <a href="https://wa.me/918344444161?text=Hello,%20I%20am%20inquiring%20about%20Limestone%20Powder." target="_blank" class="block w-full text-center bg-brand-dark text-white py-2 rounded text-sm font-medium hover:bg-brand-green">Product Enquiry</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- GALLERY SECTION -->
+    <section id="gallery" class="bg-brand-cream py-16">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="text-center mb-10">
+                <p class="text-xs font-bold tracking-widest text-gray-500 mb-2">TRANSPARENT OPERATIONS</p>
+                <h2 class="text-3xl font-bold text-brand-dark">Shop & Facility</h2>
+                <p class="text-sm text-gray-600 mt-2">Genuine view of our establishment. Authentic operating premises serving clients continuously since 1976.</p>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-8 mb-12">
+                <div class="bg-white p-4 rounded-lg shadow-sm">
+                    <img src="gallery-shop.jpg" alt="Korukkupet Shop" class="w-full rounded object-cover h-64" onerror="this.src='https://placehold.co/600x400/e8e4d9/1e3a2f?text=Shop+Front'">
+                    <div class="mt-4">
+                        <h4 class="font-bold text-brand-dark">Direct Sales Counter - Our Shop</h4>
+                        <p class="text-sm text-gray-600 mt-1">22/7 A, Sunnambu Kalavai Road, Annanagar, Korukkupet, Chennai 600021</p>
+                    </div>
+                </div>
+                <div class="bg-white p-4 rounded-lg shadow-sm">
+                    <img src="gallery-factory.jpg" alt="Manufacturing Unit" class="w-full rounded object-cover h-64" onerror="this.src='https://placehold.co/600x400/e8e4d9/1e3a2f?text=Manufacturing+Unit'">
+                    <div class="mt-4">
+                        <h4 class="font-bold text-brand-dark">Kosapur Manufacturing Unit</h4>
+                        <p class="text-sm text-gray-600 mt-1">Dedicated processing kilns ensuring freshly calcined batches and uncompromised quality standards.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-center mb-8">
+                <h3 class="text-2xl font-bold text-brand-dark mb-6">Our Products Gallery</h3>
+            </div>
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <div class="bg-white p-3 rounded-lg">
+                    <img src="prod-1.jpg" alt="Shell Lime Powder" class="w-full h-48 object-cover rounded" onerror="this.src='https://placehold.co/400x300/e8e4d9/1e3a2f?text=Product+1'">
+                    <p class="text-sm font-bold text-brand-dark mt-2 text-center">Shell Lime Powder</p>
+                </div>
+                <div class="bg-white p-3 rounded-lg">
+                    <img src="prod-2.jpg" alt="Kilinjal Sunnambu" class="w-full h-48 object-cover rounded" onerror="this.src='https://placehold.co/400x300/e8e4d9/1e3a2f?text=Product+2'">
+                    <p class="text-sm font-bold text-brand-dark mt-2 text-center">Kilinjal Sunnambu</p>
+                </div>
+                <div class="bg-white p-3 rounded-lg">
+                    <img src="prod-3.jpg" alt="Limestone" class="w-full h-48 object-cover rounded" onerror="this.src='https://placehold.co/400x300/e8e4d9/1e3a2f?text=Product+3'">
+                    <p class="text-sm font-bold text-brand-dark mt-2 text-center">Limestone</p>
+                </div>
+                <div class="bg-white p-3 rounded-lg">
+                    <img src="prod-4.jpg" alt="Limestone Powder" class="w-full h-48 object-cover rounded" onerror="this.src='https://placehold.co/400x300/e8e4d9/1e3a2f?text=Product+4'">
+                    <p class="text-sm font-bold text-brand-dark mt-2 text-center">Limestone Powder</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact" class="max-w-7xl mx-auto px-4 py-16">
+        <div class="grid md:grid-cols-2 gap-12">
+            <div>
+                <p class="text-xs font-bold tracking-widest text-gray-500 mb-2">REACH OUR TEAM</p>
+                <h2 class="text-3xl font-bold text-brand-dark mb-4">Contact Us</h2>
+                <p class="text-gray-600 mb-8">We welcome both wholesale contracts and immediate local retail requirements. Connect with us directly for competitive pricing.</p>
+
+                <div class="space-y-4">
+                    <div class="bg-brand-cream p-5 rounded-lg">
+                        <div class="flex items-start gap-3">
+                            <i class="fa-solid fa-location-dot text-brand-dark text-xl mt-1"></i>
+                            <div>
+                                <p class="font-bold text-brand-dark text-sm">SHOP & WORKS ADDRESS</p>
+                                <p class="text-sm text-gray-700 mt-1">GNANASEKAR SHELL LIME MANUFACTURE, 22/7 A, Sunnambu Kalavai Road (Lime Kiln Road), Annanagar, Korukkupet, Chennai, Tamil Nadu 600021.</p>
+                                <a href="https://www.google.com/maps/search/?api=1&query=GNANASEKAR+SHELL+LIME+MANUFACTURE+22/7+A+Sunnambu+Kalavai+Road+Korukkupet+Chennai+600021" target="_blank" class="inline-block mt-3 bg-brand-dark text-white px-4 py-2 rounded text-xs font-medium hover:bg-brand-green"><i class="fa-solid fa-diamond-turn-right mr-1"></i> Get Directions</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="flex items-center justify-between bg-white border border-gray-200 p-4 rounded-lg">
+                        <div class="flex items-center gap-3">
+                            <i class="fa-solid fa-phone text-brand-dark"></i>
+                            <div>
+                                <p class="text-xs font-bold text-brand-dark">DIRECT CALL</p>
+                                <p class="text-sm">+91 8344444161</p>
+                            </div>
+                        </div>
+                        <a href="tel:8344444161" class="text-brand-dark hover:underline"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+
+                    <div class="flex items-center justify-between bg-white border border-gray-200 p-4 rounded-lg">
+                        <div class="flex items-center gap-3">
+                            <i class="fa-brands fa-whatsapp text-green-600 text-xl"></i>
+                            <div>
+                                <p class="text-xs font-bold text-brand-dark">WHATSAPP MESSENGER</p>
+                                <p class="text-sm">8344444161</p>
+                            </div>
+                        </div>
+                        <a href="https://wa.me/918344444161" target="_blank" class="text-brand-dark hover:underline"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+
+                    <div class="flex items-center justify-between bg-white border border-gray-200 p-4 rounded-lg">
+                        <div class="flex items-center gap-3">
+                            <i class="fa-brands fa-youtube text-red-600 text-xl"></i>
+                            <div>
+                                <p class="text-xs font-bold text-brand-dark">OFFICIAL YOUTUBE</p>
+                                <p class="text-sm">@gnanasekarshelllime</p>
+                            </div>
+                        </div>
+                        <a href="https://youtube.com/@gnanasekarshelllime" target="_blank" class="text-brand-dark hover:underline"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bg-white p-8 rounded-lg border border-gray-200 shadow-sm">
+                <h3 class="text-xl font-bold text-brand-dark mb-2">Submit Product Enquiry</h3>
+                <p class="text-sm text-gray-600 mb-6">Fill out your requirement below. We respond promptly with pricing and dispatch lead time.</p>
+
+                <form id="whatsappForm" class="space-y-4">
+                    <div class="grid md:grid-cols-2 gap-4">
+                        <div>
+                            <label class="block text-xs font-bold text-gray-700 mb-1">Customer Name *</label>
+                            <input type="text" id="name" required placeholder="e.g. R. Subramanian" class="w-full border border-gray-300 rounded p-2.5 text-sm focus:outline-none focus:border-brand-dark bg-brand-light">
+                        </div>
+                        <div>
+                            <label class="block text-xs font-bold text-gray-700 mb-1">Phone Number *</label>
+                            <input type="tel" id="phone" required placeholder="e.g. 9876543210" class="w-full border border-gray-300 rounded p-2.5 text-sm focus:outline-none focus:border-brand-dark bg-brand-light">
+                        </div>
+                    </div>
+
+                    <div>
+                        <label class="block text-xs font-bold text-gray-700 mb-1">Product Interested In *</label>
+                        <select id="product" required class="w-full border border-gray-300 rounded p-2.5 text-sm focus:outline-none focus:border-brand-dark bg-brand-light">
+                            <option value="">Select Product</option>
+                            <option value="Shell Lime Powder (கிளிஞ்சல் சுண்ணாம்பு தூள்)">Shell Lime Powder (கிளிஞ்சல் சுண்ணாம்பு தூள்)</option>
+                            <option value="Kilinjal Sunnambu (கிளிஞ்சல் சுண்ணாம்பு கட்டி)">Kilinjal Sunnambu (கிளிஞ்சல் சுண்ணாம்பு கட்டி)</option>
+                            <option value="Limestone (சுண்ணாம்புக்கல்)">Limestone (சுண்ணாம்புக்கல்)</option>
+                            <option value="Limestone Powder (சுண்ணாம்புக்கல் தூள்)">Limestone Powder (சுண்ணாம்புக்கல் தூள்)</option>
+                        </select>
+                    </div>
+
+                    <div class="grid md:grid-cols-2 gap-4">
+                        <div>
+                            <label class="block text-xs font-bold text-gray-700 mb-1">Estimated Quantity</label>
+                            <input type="text" id="quantity" placeholder="e.g. 10 Tons / 50 Bags" class="w-full border border-gray-300 rounded p-2.5 text-sm focus:outline-none focus:border-brand-dark bg-brand-light">
+                        </div>
+                        <div>
+                            <label class="block text-xs font-bold text-gray-700 mb-1">Order Type</label>
+                            <select id="ordertype" class="w-full border border-gray-300 rounded p-2.5 text-sm focus:outline-none focus:border-brand-dark bg-brand-light">
+                                <option value="Retail">Retail (சில்லறை)</option>
+                                <option value="Wholesale">Wholesale (மொத்த விற்பனை)</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div>
+                        <label class="block text-xs font-bold text-gray-700 mb-1">Delivery Site / Location</label>
+                        <input type="text" id="location" placeholder="e.g. Korukkupet, Chennai" class="w-full border border-gray-300 rounded p-2.5 text-sm focus:outline-none focus:border-brand-dark bg-brand-light">
+                    </div>
+
+                    <div>
+                        <label class="block text-xs font-bold text-gray-700 mb-1">Message / Requirements</label>
+                        <textarea id="message" rows="3" placeholder="Enter required metric tons, bags, or destination town..." class="w-full border border-gray-300 rounded p-2.5 text-sm focus:outline-none focus:border-brand-dark bg-brand-light"></textarea>
+                    </div>
+
+                    <button type="submit" class="w-full bg-brand-dark text-white py-3 rounded font-medium hover:bg-brand-green flex items-center justify-center gap-2">
+                        <i class="fa-brands fa-whatsapp"></i> Send via WhatsApp
+                    </button>
+                    <p class="text-[10px] text-gray-500 text-center mt-2">Clicking will open WhatsApp directly with your details pre-filled.</p>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="bg-brand-dark text-gray-300 py-12">
+        <div class="max-w-7xl mx-auto px-4 grid md:grid-cols-4 gap-8 text-sm">
+            <div>
+                <h4 class="text-white font-bold mb-3">GNANASEKAR</h4>
+                <p class="text-xs mb-2">SHELL LIME MANUFACTURE • SINCE 1976</p>
+                <p class="text-xs text-gray-400">Trusted Shell Lime Manufacturing Since 1976. Supplying high purity Kilinjal Sunnambu, Shell Lime Powder, and Limestone minerals.</p>
+            </div>
+            <div>
+                <h4 class="text-white font-bold mb-3">QUICK NAVIGATION</h4>
+                <ul class="space-y-2 text-xs">
+                    <li><a href="#home" class="hover:text-white">Home</a></li>
+                    <li><a href="#about" class="hover:text-white">About Us</a></li>
+                    <li><a href="#products" class="hover:text-white">Products</a></li>
+                    <li><a href="#gallery" class="hover:text-white">Gallery</a></li>
+                    <li><a href="#contact" class="hover:text-white">Contact & Enquiries</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="text-white font-bold mb-3">DIRECT COMMUNICATION</h4>
+                <ul class="space-y-2 text-xs">
+                    <li><i class="fa-solid fa-phone mr-2"></i> +91 8344444161</li>
+                    <li><i class="fa-brands fa-whatsapp mr-2"></i> 8344444161</li>
+                    <li><i class="fa-brands fa-youtube mr-2"></i> @gnanasekarshelllime</li>
+                    <li class="mt-3"><i class="fa-solid fa-location-dot mr-2"></i> 22/7 A, Sunnambu Kalavai Road, Korukkupet, Chennai 600021</li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="text-white font-bold mb-3">LANGUAGE / மொழி</h4>
+                <div class="flex gap-2 mb-4">
+                    <button class="px-3 py-1 bg-white text-brand-dark rounded text-xs font-bold">English</button>
+                    <button class="px-3 py-1 border border-gray-500 rounded text-xs">தமிழ்</button>
+                </div>
+                <a href="https://www.google.com/maps/search/?api=1&query=GNANASEKAR+SHELL+LIME+MANUFACTURE+22/7+A+Sunnambu+Kalavai+Road+Korukkupet+Chennai+600021" target="_blank" class="text-xs hover:text-white flex items-center gap-2"><i class="fa-solid fa-map"></i> View on Google Maps</a>
+            </div>
+        </div>
+        <div class="max-w-7xl mx-auto px-4 mt-8 pt-6 border-t border-gray-700 text-center text-xs text-gray-500">
+            &copy; 1976 - 2026 GNANASEKAR SHELL LIME MANUFACTURE. All rights reserved.
+        </div>
+    </footer>
+
+    <script>
+        const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+        const mobileMenu = document.getElementById('mobileMenu');
+        mobileMenuBtn.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+
+        document.getElementById('whatsappForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            const name = document.getElementById('name').value;
+            const phone = document.getElementById('phone').value;
+            const product = document.getElementById('product').value;
+            const quantity = document.getElementById('quantity').value;
+            const orderType = document.getElementById('ordertype').value;
+            const location = document.getElementById('location').value;
+            const message = document.getElementById('message').value;
+
+            const text = `*New Product Enquiry*%0A👤 Name: ${name}%0A📞 Phone: ${phone}%0A📦 Product: ${product}%0A Quantity: ${quantity}%0A🛒 Order Type: ${orderType}%0A📍 Location: ${location}%0A📝 Message: ${message}`;
+            
+            window.open(`https://wa.me/918344444161?text=${text}`, '_blank');
+        });
+    </script>
+</body>
+</html>
